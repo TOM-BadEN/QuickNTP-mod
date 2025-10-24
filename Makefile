@@ -37,7 +37,18 @@ include $(DEVKITPRO)/libnx/switch_rules
 #   of a homebrew executable (.nro). This is intended to be used for sysmodules.
 #   NACP building is skipped as well.
 #---------------------------------------------------------------------------------
-APP_TITLE	:=	QuickNTP
+
+# QuickNTP    #
+# 517569636B4E545020202020
+# 时间同步
+# E697B6E997B4E5908CE6ADA5
+
+
+
+
+
+
+APP_TITLE	:=	QuickNTP    
 APP_VERSION :=	1.2.8
 
 TARGET		:=	$(notdir $(CURDIR))
